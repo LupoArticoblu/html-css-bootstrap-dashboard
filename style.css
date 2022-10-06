@@ -1,0 +1,63 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.debug{
+  border: 1px solid red;
+  background-color: burlywood;
+}
+
+header{
+  height: 70px;
+  background-color: gainsboro;
+}
+
+img{
+  height: 100%;
+}
+
+.sc-col{
+  width: 100%;
+}
+
+.sc-bar{
+  width: 100%;
+}
+
+.sc-from .from-control{
+  width: 100%;
+}
+
+#sidebar{
+  background-color: aqua;
+  font-family: "Poppins", sans-serif;
+  height: calc(100vh - 70px);
+}
+
+.sc-container{
+  border: 1px solid lightblue;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  .side{
+    display: none;
+  }
+}
