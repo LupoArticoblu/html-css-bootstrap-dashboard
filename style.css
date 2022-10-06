@@ -38,12 +38,18 @@ img{
   height: calc(100vh - 70px);
 }
 
-.sc-container{
+.ls{
   border: 1px solid lightblue;
   border-radius: 10px;
 }
 
+.icona{
+  height: 30px;
+}
 
+.badge{
+  color: azure;
+}
 
 
 
@@ -61,3 +67,10 @@ img{
     display: none;
   }
 }
+
+@media (max-width: 1200px) {
+  .dis{
+    display: none;
+  }
+}
+
